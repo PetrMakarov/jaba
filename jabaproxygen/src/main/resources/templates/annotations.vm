@@ -1,0 +1,1 @@
+#foreach($annotation in $entry.getAnnotations())$annotation#end

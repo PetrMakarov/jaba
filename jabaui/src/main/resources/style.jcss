@@ -1,0 +1,12 @@
+MainWindow {
+    background-color: #4f0a3f;
+    MainPanel {
+        background-color: #a73d14;
+        JButton {
+            border-radius: 20 20;
+            _@hover {
+                text-color: #beebee;
+            }
+        }
+    }
+}

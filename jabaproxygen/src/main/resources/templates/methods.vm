@@ -1,0 +1,6 @@
+#foreach($method in $entry.getMethods())
+    $method.getDeclareSignature() {
+        $method.getCallSignature()
+    }
+
+#end

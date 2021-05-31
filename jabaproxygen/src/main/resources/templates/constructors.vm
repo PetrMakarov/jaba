@@ -1,0 +1,8 @@
+    public $entry.getName()() {
+        this.$entry.getExtendsInstanceName() = new $entry.getExtendsClassName()();
+    }
+
+    public $entry.getName()($entry.getExtendsClassName() $entry.getExtendsInstanceName()) {
+        this.$entry.getExtendsInstanceName() = $entry.getExtendsInstanceName();
+        $entry.getProxyWrapeeString()
+    }

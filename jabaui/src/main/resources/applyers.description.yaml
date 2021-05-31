@@ -1,0 +1,14 @@
+com.pmakarov.jabaui.style.apply.jpanel.JPanelApplyer:
+  width: com.pmakarov.jabaui.style.apply.jpanel.main.JPanelMainApplyer
+  background-color: com.pmakarov.jabaui.style.apply.jpanel.main.JPanelMainApplyer
+  opacity: com.pmakarov.jabaui.style.apply.jpanel.main.JPanelMainApplyer
+com.pmakarov.jabaui.style.apply.jbutton.JButtonApplyer:
+  border-radius: com.pmakarov.jabaui.style.apply.jbutton.border.JButtonBorderApplyer
+  _@hover:
+    com.pmakarov.jabaui.style.apply.jbutton.pseudo.hover.JButtonHoverApplyer:
+      border-color: com.pmakarov.jabaui.style.apply.jbutton.pseudo.hover.border.JButtonHoverBorderApplyer
+      text-color: com.pmakarov.jabaui.style.apply.jbutton.pseudo.hover.border.JButtonHoverBorderApplyer
+      background-color: com.pmakarov.jabaui.style.apply.jbutton.pseudo.hover.border.JButtonHoverBorderApplyer
+com.pmakarov.jabaui.style.apply.jframe.JFrameApplyer:
+  background-color: com.pmakarov.jabaui.style.apply.jframe.main.JFrameMainApplyer
+  opacity: com.pmakarov.jabaui.style.apply.jframe.main.JFrameMainApplyer

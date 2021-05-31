@@ -1,0 +1,22 @@
+package $entry.getPackageString();
+
+#parse("$resources/imports.vm")
+
+#parse("$resources/annotations.vm")
+public class $entry.getName() extends $entry.getExtendsClassName() implements $entry.getImplementsClassName()<$entry.getExtendsClassName()> {
+
+#parse("$resources/fields.vm")
+
+#parse("$resources/constructors.vm")
+
+#parse("$resources/methods.vm")
+    @Override
+    public $entry.getPropagatorClassName() getValuePropagator() {
+        return $entry.getPropagatorInstanceName();
+    }
+
+    @Override
+    public $entry.getExtendsClassName() getOriginal(){
+        return this.$entry.getExtendsInstanceName();
+    }
+}

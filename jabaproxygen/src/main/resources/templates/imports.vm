@@ -1,0 +1,3 @@
+#foreach($import in $entry.getImports())
+import $import;
+#end

@@ -1,0 +1,3 @@
+    private $entry.getPropagatorClassName() $entry.getPropagatorInstanceName() = new $entry.getPropagatorClassName()();
+
+    private $entry.getExtendsClassName() $entry.getExtendsInstanceName();

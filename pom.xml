@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.pmakarov</groupId>
+    <artifactId>jaba</artifactId>
+    <version>1.0.0</version>
+    <name>jaba</name>
+    <packaging>pom</packaging>
+
+    <properties>
+        <lombok.version>1.18.8</lombok.version>
+        <compiler.version>3.8.1</compiler.version>
+        <java.version>8</java.version>
+        <log4j.version>1.2.17</log4j.version>
+        <slf4j.version>1.7.25</slf4j.version>
+        <javaassist.version>3.27.0-GA</javaassist.version>
+        <jackson.core.version>2.11.0</jackson.core.version>
+        <jackson.databind.version>2.9.10.1</jackson.databind.version>
+        <javax.xml.version>2.1</javax.xml.version>
+    </properties>
+
+    <modules>
+        <module>jabaui</module>
+        <module>jabaproxygen</module>
+        <module>jabahelper</module>
+        <module>jabaresource</module>
+        <module>jabacache</module>
+        <module>jabavalidation</module>
+    </modules>
+
+</project>
